@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'any_design'                                                                                            => 'Sebarang Reka Bentuk',
+    'connect_with_us_on'                                                                                    => 'Berhubung Dengan Kami Hidup',
+    'copyright_notes'                                                                                       => 'Nota Hak Cipta',
+    'dashboard'                                                                                             => 'Papan Pemuka',
+    'dynamic'                                                                                               => 'Dinamik',
+    'give_me_a_full_demo'                                                                                   => 'Beri Saya Demo Penuh',
+    'landing_page_sample'                                                                                   => 'Contoh Halaman Pendaratan',
+    'learn_more'                                                                                            => 'Ketahui Lebih Lanjut',
+    'make_your_landing_page_multilingual_dynamic_backend_translation_with_language_switcher'                => 'Jadikan Terjemahan Halaman Latar Belakang Dinamik Multibahasa Anda Dengan Pengalih Bahasa',
+    'multilingual_on_request'                                                                               => 'Permintaan berbilang bahasa',
+    'need_a_dynamic_website_for_your_mlm_business_choose_from_variety_ofcms_frameworks_we_are_experts_at'   => 'Memerlukan Laman Web Dinamik Untuk Perniagaan Mlm Anda Pilih Dari Pelbagai Kerangka Kerja Yang Kami Pakar Di',
+    'number_1_mlm_software_with_unleashed_features_scalability_security'                                    => 'Perisian Nombor 1 Mlm Dengan Keistimewaan Skalabiliti yang Tidak Dilancarkan',
+    'register'                                                                                              => 'Daftar',
+    'request_full_demo'                                                                                     => 'Minta Demo Penuh',
+    'sign_in'                                                                                               => 'Log masuk',
+    'site_description_value'                                                                                => 'Nilai Penerangan Tapak',
+    'this_is_a_sample_page_for_demonstrating_cloud_mlm_softwares_feature'                                   => 'Ini adalah Halaman Contoh Untuk Menunjukkan Ciri Perisian Perisian Cloud Mlm',
+    'this_is_just_sample_we_can_build_and_integrate_any_theme_of_your_choice_no_limitations'                => 'Ini Hanya Contoh Kita Boleh Membangun Dan Menggabungkan Tema Mana-mana Pilihan Anda Tanpa Batasan',
+    'try_now'                                                                                               => 'Cuba sekarang',
+    'try_our_full_featured_demo'                                                                            => 'Cubalah Demo Pilihan Utama Kami',
+    'we_are_version_2_1_0_future_upgrades_are_free'                                                         => 'Kami Versi 2 1 0 Peningkatan Masa Depan Percuma',
+    'we_can_design_integrate_your_choice'                                                                   => 'Kami Boleh Merancang Menggabungkan Pilihan Anda',
+    'your_networks'                                                                                         => 'Rangkaian Anda',
+]; 

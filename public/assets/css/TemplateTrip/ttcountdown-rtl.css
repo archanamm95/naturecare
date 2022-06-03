@@ -1,0 +1,86 @@
+.tt-special-countdown {
+  float: right;
+}
+.countdown-images {
+	float: right;
+}
+.countdown-images::after {
+	right: auto;
+	left: 0;
+}
+.countdown-labele .hot {
+	left: 15px;
+	right: auto;
+}
+.special-countdown .product-thumb .thumb-description {
+  float: left;
+}
+.special-countdown .product-thumb .button-group button.btn-quickview {
+	border-radius: 50%;
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	-khtml-border-radius: 50%;
+}
+.tt-special-countdown .ttcountdown-inner .product-thumb h4::before {
+	right: 0;
+	left: auto;
+}
+.special-countdown .product-thumb .rating {
+	text-align: right;
+}
+.special-countdown .product-thumb .button-group {
+	text-align: right;
+}
+.special-countdown .percent {
+	text-align: right;
+}
+.item-countdown {
+	float: right;
+	padding: 5px 45px 5px 15px;
+}
+.item-countdown::before {
+	right: 15px;
+	left: auto;
+}
+.item-countdown div::after {
+	left: -2px;
+	right: auto;
+}
+.special-countdown .additional-images-container {
+	left: -240px;
+	right: auto;
+}
+/*---------------column-right-left css--------------*/
+
+/*---------------column-right-left css--------------*/
+.tt-special-countdown .ttqtyprogress {
+	text-align: right;
+}
+.tt-special-countdown .progress-bar {
+	float: right;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.item-countdown {
+		padding: 5px 45px 5px 7px;
+	}
+}
+@media (max-width: 1199px) {
+	.special-countdown .additional-images-container {
+		left: -190px;
+		right: auto;
+	}
+}
+@media (max-width: 991px) {
+	.item-countdown {
+		padding: 5px 35px 5px 10px;
+	}
+	.item-countdown::before {
+		right: 10px;
+		left: auto;
+	}
+}
+@media (max-width: 480px) {
+	.item-countdown {
+		float: none;
+	}
+}

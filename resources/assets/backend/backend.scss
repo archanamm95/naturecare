@@ -1,0 +1,109 @@
+@import "./themes/limitless/global_assets/scss/layouts/layout_1/default/compile/bootstrap";
+@import "./themes/limitless/global_assets/scss/layouts/layout_1/default/compile/bootstrap_limitless";
+@import "./themes/limitless/global_assets/scss/layouts/layout_1/default/compile/layout";
+@import "./themes/limitless/global_assets/scss/layouts/layout_1/default/compile/components";
+@import "./themes/limitless/global_assets/scss/layouts/layout_1/default/compile/colors";
+
+
+//EXTRA STYLESHEETS
+//sheheme.css
+@import "sheheme.css";
+
+//Animate.css - CSS Animation library
+@import "./themes/limitless/global_assets/css/extras/animate.scss";
+
+//We have removed default sweetalert and replaced with bootstrap-sweetalert
+@import "~bootstrap-sweetalert/dist/sweetalert.css";
+
+//Feathericons library especially for menu items
+@import "./themes/limitless/global_assets/scss/shared/icons/feather/style";
+
+//Icomoon library for themewide styles
+@import "./themes/limitless/global_assets/scss/shared/icons/icomoon/compile/styles";
+
+//Flaticons libaries - Optional
+// @import "./themes/limitless/global_assets/scss/shared/icons/flaticon/styles";
+// @import "./themes/limitless/global_assets/scss/shared/icons/flaticon2/styles";
+
+//flipclock - only use if counters are used
+@import "./extra-aslamise/plugins/flipclock/flipclock.scss";
+
+//Language icons 
+@import "./extra-aslamise/css/languages/languages.scss";
+
+//Flag icons 
+@import "~flag-icon-css/css/flag-icon.min.css";
+
+//Orgchart
+@import "~orgchart/dist/css/jquery.orgchart.min.css";
+
+//JSTree
+@import "~jstree/dist/themes/default/style.min.css";
+
+//WebUI popover
+@import "~webui-popover/dist/jquery.webui-popover.css";
+
+
+//     'node_modules/intro.js/minified/introjs.min.css',
+//     'node_modules/orgchart/dist/css/jquery.orgchart.min.css',
+//     'node_modules/jstree/dist/themes/default/style.min.css',
+//     'node_modules/webui-popover/dist/jquery.webui-popover.css',
+//     'node_modules/codemirror/lib/codemirror.css',
+//     'node_modules/flag-icon-css/css/flag-icon.min.css',
+//     'node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css',
+//     'backend/extra-aslamise/plugins/bootstraptoggle/bootstrap-toggle.min.css',
+//     'backend/themes/limitless/css/extra.css'
+
+
+// // Fonts
+// //@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// //@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900");
+// //@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+// @import url("https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i,800,900");
+
+
+// // Variables
+// //@import 'variables';
+// .navbar-laravel {
+//     background-color: #fff;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+// // Bootstrap
+// //@import '~bootstrap/scss/bootstrap';
+// // Font-awesome
+// @import '~font-awesome/scss/font-awesome';
+// //Social icons svg
+// @import "resources/assets/backend/extra-aslamise/css/icons/social-svg-css/social-svg-css";
+// // Soft
+// //Core
+// @import "./themes/limitless/scss/core";
+// // //Components
+// @import "./themes/limitless/scss/components";
+// // //Colors
+// @import "./themes/limitless/scss/colors";
+
+// // OrgChart combine style
+// /*@import "~orgchart/dist/css/jquery.orgchart.min";*/
+
+// // webui-popover combine style
+// //@import "~webui-popover/dist/jquery.webui-popover";
+// // switchery combine style
+// //@import "~switchery/switchery";
+// // pnotify brighttheme combine
+// // @import "~pnotify/dist/pnotify.brighttheme";
+// // Parsley CSS combine
+// // @import "~parsleyjs/src/parsley";
+
+// // flags images combine
+// @import "~flag-icon-css/sass/flag-icon.scss";
+
+// // JSTree  combine
+// // @import "~jstree/dist/themes/default/style";
+// // CodeMirror  combine if needed
+// // @import "~codemirror/lib/codemirror";
+// // IntroJs combine if needed
+// //@import "~intro.js/minified/introjs.min";
+// //Social icons svg
+// //@import "resources/assets/css/icons/social-svg-css/social-svg-css";
+// //Extra
+// //@import "/css/extra";

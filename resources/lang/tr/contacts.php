@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'add_new_contact'               => 'Yeni Kişi Ekleyin',
+    'address'                       => 'Adres',
+    'all_contact'                   => 'Tüm Kişi',
+    'contact'                       => 'İletişim',
+    'contact_list'                  => 'Kişi Listesi',
+    'contact_lists'                 => 'Kişi Listeleri',
+    'contacts_created'              => 'Rehber Oluşturulan',
+    'contacts_deleted'              => 'Rehber Silinmiş',
+    'contacts_list_created'         => 'Rehber Oluşturulan Liste',
+    'contacts_updated'              => 'Rehber Güncellendi',
+    'create_contact_list'           => 'Kişi Listesi Oluşturmak',
+    'create_new_list'               => 'Yeni Liste Oluştur',
+    'created'                       => 'Oluşturulan',
+    'email'                         => 'E-posta',
+    'firstname'                     => 'Ad',
+    'lastname'                      => 'Soyad',
+    'mobile'                        => 'Mobil',
+    'showing_contacts_in_the_list'  => 'Listede Gösterilen Kişiler',
+    'view_and_manage_contact_list'  => 'Görünümü Ve Kişi Listesi Yönetme',
+    'view_and_manage_contact_lists' => 'Kişi Listelerini Görüntülemek Ve Yönetmek',
+    'view_and_manage_contacts'      => 'Kişileri Görüntüleme Ve Yönetme',
+    'view_contact_list'             => 'Görünüm İletişim Listesi',
+];

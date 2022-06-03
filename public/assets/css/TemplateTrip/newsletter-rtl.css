@@ -1,0 +1,104 @@
+/* newsletter popup */
+#popup2 {
+	right: auto;
+	left: -52px;
+}
+.newletter-popup #boxes .newletter-title h2{
+	text-align: right;
+}
+.newletter-popup .box {
+	text-align: right;
+	padding: 0 30px 0 15px;
+}
+#boxes #frm_subscribe #subscribe_pemail{
+	text-align: right;
+}
+.popup-button{
+	text-align: right;
+}
+.newslatter-img{
+	float: right;
+}
+
+/* newsllter */
+#subscribe_email {
+	padding: 0 15px 0 130px;
+}
+#subscribe .btn {
+	left: -4px;
+	right: auto;
+	border-radius: 25px 0 0 25px;
+	-moz-border-radius: 25px 0 0 25px;
+	-webkit-border-radius: 25px 0 0 25px;
+	-khtml-border-radius: 25px 0 0 25px;
+}
+#subscribe .btn::after {
+	border-radius: 25px 0 0 25px;
+	-moz-border-radius: 25px 0 0 25px;
+	-webkit-border-radius: 25px 0 0 25px;
+	-khtml-border-radius: 25px 0 0 25px;
+}
+#dialog-normal .newletter-title {
+  float: right;
+}
+.newletter-popup #boxes .newletter-title h2::before {
+	left: auto;
+	right: 0;
+}
+.newletter-popup #boxes .newletter-title h2::after {
+	left: auto;
+	right: 57px;
+}
+#boxes #frm_subscribe #subscribe_pemail {
+	float: right;
+}
+.popup-button {
+	float: right;
+}
+.b-close {
+	left: 0;
+	right: auto;
+}
+@media(max-width:900px){
+	#dialog-normal .newleter-content {
+	  float: none;
+	}
+	.newletter-popup .box{
+		padding:20px 0;
+		text-align: center;
+	}
+	.newletter-popup #boxes .newletter-title h2 {	
+		text-align: center;
+	}
+	.popup-button{
+		text-align:center;	
+	}
+	#boxes #frm_subscribe #subscribe_pemail {
+		float: none;
+		text-align: center;	
+	}
+	#popup2 {
+		right: auto;
+		left: 0;
+	}
+}
+@media(max-width:480px){
+	#subscribe_email {
+		padding: 0 15px 0 50px;
+	}
+	#dialog-normal .newletter-title h2 {
+	  padding: 50px 0 0;
+	  text-align: center;
+	}
+	#dialog-normal .newletter-title .tt-title::before {
+		right: 0;
+		left: 0;
+	}
+	.newletter-subscribe .button > i {
+		transform: rotatez(210deg);
+		-webkit-transform: rotatez(210deg);
+		-moz-transform: rotatez(210deg);
+		-o-transform: rotatez(210deg);
+		-ms-transform: rotatez(210deg);
+	}
+}

@@ -1,0 +1,109 @@
+/*------------------------------------ Blog HomePage CSS Start ---------------------------------------------*/
+	#blog_latest_new_home .block_content #ttsmartblog-carousel li .blog-content .blog_image_holder {
+		float: right;
+	}
+	#blog_latest_new_home .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content {
+		float: left;
+		text-align: right;
+	}
+	#ttsmartblog-carousel .blog-content .post_title{
+		text-align: right;
+	}
+	.blog-content .blog-caption .blog-description{
+		text-align: right;	
+	}
+	#blog_latest_new_home .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content .read-more{
+		float:right;	
+	}
+	.comment > a {
+		float: right;
+	}
+	#blog_latest_new_home .title_block {
+	  float: right;
+	}
+	#ttsmartblog-carousel .comment {
+		float: left;
+	}
+	#ttcmsparallax .ttparallex-main .ttparallex-left .ttparalleximg1 a{
+		float :right;	
+	}
+	#ttsmartblog-carousel .date-comment{
+		text-align:right;	
+	}
+	#blog_latest_new_home .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content .read-more::after {
+		content: "\e5cb";
+		float: left;
+	}
+	#blog_latest_new_home .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content .blog-date {
+		float: right;
+		right: 30px;
+		left: auto;
+	}
+	
+	@media (max-width: 767px) {
+		#blog_latest_new_home .block_content #ttsmartblog-carousel li .blog-content .blog-sub-content {
+			padding: 10px 0 0;
+		}
+	}
+	@media (max-width: 480px) {
+		.comment > a {
+			float: none;
+		}
+	}
+/*------------------------------------ Blog HomePage CSS Start ---------------------------------------------*/
+
+
+/*-------------------------------------- Blog Category Page CSS Start -------------------------------------*/
+	#module-ttblog-category #ttblogcat .blog-item .ttblogpost .out-content-blog {
+		float: right;
+	}
+	#module-ttblog-category #ttblogcat .blog-item .ttblogpost .article-content {
+		float: right;
+	}
+	#module-ttblog-category #ttblogcat .blog-item .ttblogpost .out-content-blog .sdsreadMore {
+		float: right;
+	}
+
+/*-------------------------------------- Blog Category Page CSS End -------------------------------------*/
+/*---------------blog style2 css-----------------------------*/
+	#blog_latest_new_home.blog_style2 .block_content ul#ttsmartblog-carousel li .blog-content .blog_image_holder::after {
+		left: auto;
+		right: -25px;
+	}
+	#blog_latest_new_home.blog_style2 .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content {
+		text-align: right;
+		padding:10px 20px 0 0;
+	}
+	#blog_latest_new_home.blog_style2 .block_content ul#ttsmartblog-carousel li .blog-content .blog_image_holder{
+		float: right;	
+	}
+	#blog_latest_new_home .blog-caption .blog-date i {
+		padding: 2px 0 0 6px;
+		float: right;
+	}
+/*---------------blog style2 css-----------------------------*/
+/*---------------blog style3 css-----------------------------*/
+#blog_latest_new_home.blog_style3 .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content .blog-date {
+	float: left;
+}
+.blog_style3 #ttsmartblog-carousel .blog-date {
+	float: right;
+	right: 15px;
+	left: auto;
+}
+#blog_latest_new_home.blog_style3 .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content{
+	right: auto;
+	left: 0;
+}
+#blog_latest_new_home.blog_style3 .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content .blog-inner{
+	text-align: right;
+}
+	@media (max-width: 1199px) {
+		#blog_latest_new_home.blog_style2 .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content{
+			padding: 10px 0 0 0;	
+		}
+		#blog_latest_new_home.blog_style3 .block_content ul#ttsmartblog-carousel li .blog-content .blog-sub-content{
+			right: 0;	
+		}
+	}
+/*---------------blog style3 css-----------------------------*/

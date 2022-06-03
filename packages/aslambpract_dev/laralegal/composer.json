@@ -1,0 +1,27 @@
+{
+    "name": "aslambpract/laralegal",
+    "description": "Easy laravel legal pages and cookie consent banner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aslam Bpract",
+            "email": "aslan@bpract.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aslambpract\\Laralegal": "src/"
+        },
+        "files": [
+            "src/Aslam/Legal/functions.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}

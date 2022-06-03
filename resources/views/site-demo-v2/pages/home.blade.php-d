@@ -1,0 +1,438 @@
+@extends('site.base')
+
+@section('content')
+
+            <!-- <img src="{{url('assets/site/img/iphone.png')}}')}}"/> -->
+       <section class="cover height-100 text-center imagebg" data-overlay="1">
+                <div class="background-image-holder bgpostopcenter" >
+                    <img alt="background" src="{{ asset('site/img/all/bg.jpg')}}" />
+                </div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                         <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8">
+                            <div class="cta mt--3">
+                                <h1 class="h1 fw400">Giving opportunity for small player to participate in lucrative gold mining
+operations with environmental and social effects.</h1>
+                                <p class="lead">You want to know more ? Suscribe to your newsletter</p>
+                                
+              
+                <div class="container">
+
+                 <form class="row justify-content-center" action="//example.us18.list-manage.com/subscribe/post?u=085a394f4c3119dfd74b0a843&amp;id=c42319d808" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your name and email address ">
+                      <div class="col-md-4">
+                          <input class="validate-required" type="text" name="NAME" placeholder="Your Name" />
+                      </div>
+                      <div class="col-md-4">
+                          <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="E-mail" />
+                      </div>
+                       <div class="col-md-4">
+                          <button type="submit" class="btn btn--primary type--uppercase yellowbtn">START</button>
+                      </div>
+                      
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                          <input type="text" name="b_085a394f4c3119dfd74b0a843_c42319d808" tabindex="-1" value="">
+                      </div>
+                  </form>
+
+
+                 <!--    
+
+                <div class="col-md-12">
+                          <input class="validate-required" type="checkbox" name="group[13737][1]" />
+                          <span>I have read and agree to the
+                              <a href="#">terms and conditions</a>
+                          </span>
+                      </div>
+
+                 <form class="row">
+                        <div class="col-md-4"> <input type="name" name="name" placeholder="Name"> </div>
+                        <div class="col-md-4"> <input type="email" name="email" placeholder="Email"> </div>
+                        <div class="col-md-4"> <button type="submit" class="btn btn--primary type--uppercase yellowbtn">START</button> </div>
+                    </form>   -->
+                  </div>
+           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-8">
+                            <img src="{{ asset('site/img/all/company-dyn.png')}}"/>
+                            <h2 class="h1 fw800">Company</h2>                          
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<section class="">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 text-center"> <img alt="Image" src="{{ asset('site/img/all/company-map.png')}}"> </div>
+                         <div class="col-md-4">
+                            <div class="switchable__text company_text" >
+                               <h3 class="fw800">50% ROI Gold Mining contract </h3>
+                                <h4><span class="coloryellow">◊</span> 1st year 100%</h4>
+                                <h4><span class="coloryellow">◊</span> 2nd year 100%</h4>
+                                <h4><span class="coloryellow">◊</span> Issued by gold mining company investing in Gold mining at Africa</h4>
+
+                                <h3 class="fw800">Mining contract 2 years:</h3>
+                                <h4><span class="coloryellow">1oz</span> = 31.1gram</h4>
+                                <h4><span class="coloryellow">1grain</span> =0,065gram</h4>
+                                <h4><span class="coloryellow">1mite</span> =1/20grain</h4>
+                                <h4><span class="coloryellow">1trite</span> =1/24mite</h4>
+                                <h4><span class="coloryellow">1blank</span> =1/20trite</h4>
+                            </div>
+                        </div> 
+                        <div class="col-md-4 company_text">
+                        	<h4>Gold mining pre-funding contracts</h4>                        	
+                        	<h4>- We pool the small contrcats into one large contract.</h4>                        	
+                        	<h4>- Our partner BanwaGold will do the operation.</h4>
+                        	<h4>Contract 2 years.</h4>
+                        	<h4>After pool is full and goes into mining (6 months), start to get profits paid out monthly.</h4>
+                        	<h4>After 2nd year get the capital back.</h4>
+                        	<h4>20% for Solidus gold and 80% for gold mining contract owner.</h4>
+                        	<h4>Due to specialized mining operations gold mining in Africa can be highly lucrative.</h4>
+                        	<span class="coloryellow">1oz</span> = 31.1gram <span class="coloryellow">1grain</span> =0,065gram <span class="coloryellow">1mite</span> =1/20grain <span class="coloryellow">1trite</span> =1/24mite <span class="coloryellow">1blank</span> =1/20trite
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt--3 infographsection  bg-gradient-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mt--3 text-left centerinsmallscreen"> 
+                            <img alt="Image" src="{{ asset('site/img/all/s-logo.png')}}"> 
+                        </div>
+                        <div class="col-md-7 text-right">
+                            <img class="infographic" alt="Image" src="{{ asset('site/img/all/infographic.png?ver=1')}}"> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="space--xs imagebg bg-gradient-black">
+                <div class="container">
+
+                    <div class="cta bg-gradient-yellow cta-box cta--horizontal text-center-xs">
+                        <div class="col-md-4">
+                            <h4 class="h1 fw800 textblack mb--0">Comp Plan:</h4>
+                            <h5 class="h2 fw200 textblack">Binary forced matrix</h5>
+                        </div>                       
+                    </div>                    
+                </div>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mt--3"> 
+                     <!--       <div class="switchable__text company_text" >
+                               <h3 class="fw800">Fast start 10%</h3>
+                               <h3 class="fw800">Indirect fast start: (unilevel)</h3>
+                                <h4><span class="coloryellow">◊</span> 1 level 5%</h4>
+                                <h4><span class="coloryellow">◊</span>  2 level 4%</h4>
+                                <h4><span class="coloryellow">◊</span> 3 level 3%</h4>
+
+
+                                <h3 class="fw800">Binary 10% weaker leg</h3>
+                                <h4><span class="coloryellow">◊</span> max payout 30%</h4>
+                                <h4><span class="coloryellow">◊</span>   Daily payout</h4>
+                                <h4><span class="coloryellow">◊</span> weekly caps </h4>
+
+                               
+                            </div> -->
+
+                            <div class="switchable__text company_text" >
+                               <h3 class="fw800">Fast start 10% Indirect fast start</h3>
+                                <h4><span class="coloryellow">◊</span> 1 level 5%</h4>
+                                <h4><span class="coloryellow">◊</span>  2 level 4%</h4>
+                                <h4><span class="coloryellow">◊</span> 3 level 3%</h4>
+
+
+                                <h3 class="fw800">Binary 10% weaker leg</h3>
+                                <h4><span class="coloryellow">◊</span>   Weekly payout</h4>
+                                <h4><span class="coloryellow">◊</span> weekly caps </h4>
+
+                               
+                            </div>
+                        </div>
+                     <div class="col-md-6 mt--3">
+                            <div class="switchable__text company_text" >
+                                 <h3 class="fw800">Matching bonus</h3>
+                                <h4><span class="coloryellow">◊</span> 1 level 5%</h4>
+                                <h4><span class="coloryellow">◊</span> 2 level 3%</h4>
+                                <h4><span class="coloryellow">◊</span> 3 level 2% </h4>
+
+                                
+                            </div>
+                     </div>
+                </div>
+                </div>
+            </section>
+ <section class="space--xs">
+                
+                <div class="container">
+                <div class="row">
+                    <h2 class="h1 fw800">Products</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mt--3"> 
+                           <div class="switchable__text company_text" >
+                                <h3 class="inline-block coloryellow fw800">www.oztcard.com </h3> <a href="#" class="inline-block btn btn--sm type--uppercase yellowbtn float-right"><span class="btn__text">
+                                    Preorder now
+                                </span></a>
+                                <h4>SMARTCARD / OZT CARD solution </h4>
+                                <h4><span class="coloryellow">◊</span> 120 usd</h4>
+                                <h4><span class="coloryellow">◊</span>70 usd in prelaunch</h4>
+                                <h4>Smallest package: 70usd + 30usd registration fee. Card delivered to home.</h4>
+                               
+                            </div>
+                        </div>
+                     <div class="col-md-5 mt--3">
+                            <div class="switchable__text company_text" >
+                                 <h4 class="">Have 4 levels of cards: (only standard can buy directly)</h4>
+                                <h4><span class="coloryellow">◊</span> Standard</h4>
+                                <h4><span class="coloryellow">◊</span> Silver Premium</h4>
+                                <h4><span class="coloryellow">◊</span> Gold Premium</h4>
+                                <h4><span class="coloryellow">◊</span> Platinum Premium</h4>
+                            </div>
+                     </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-7 mt--3"> 
+                           <div class="switchable__text company_text font_small" >
+                                <h3 class="h2 inline-block coloryellow fw800">Solidus Gold COINS </h3>
+                               <!--  <h4>- 10% up to 50% of mining contract value as core value</h4>
+                                <h4>- Given as free on top of mining contract</h4>
+                                <h4>- Utility token</h4>
+                                <h4>- Token created on top of EOS or Header platform,</h4>
+                                <h4>- Instant transactions, feeless, 1 million tps</h4>
+                                <h4>- Will partner with online shopping platforms and create also fraction bonus Economy on that.</h4> 
+								-->
+                                <h4>- 10% backed up by gold </h4>
+                                <h4>- Given as free on top of mining contract </h4>
+                                <h4>- Utility token</h4>
+                                <h4>- Token created on top of EOS platform</h4>
+                                <h4>- Instant transactions, feeless, 1 million transactions per second</h4>
+                                <h4>- Will partner with online shopping platforms and create also fraction bonus Economy on that.</h4>
+
+                                <h4 class="fw800 fs15 mt--1">30usd onetime registration fee applies on all packages</h4>
+                               
+                            </div>
+                        </div>
+                     <div class="col-md-5 mt--3">
+                            <div class="switchable__text" >
+                                <img src="{{ asset('site/img/all/card.png')}}"/>
+                            </div>
+                     </div>
+                </div>
+
+
+                </div>
+            </section>
+
+
+            <section class="mt--3 space--xs bg-gradient-black" style="margin-bottom: -140px;">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title"> 1. 50 Grain Gold Mining Contract </h4>
+                          <h5>- 50 Grain aprx 135usd</h5>
+                          <h5>- 50 Grain payout in gold first year,  50 Grain second year</h5>
+                          <h5>- 25 Grain worth of Solidus Gold coins</h5>
+                        </div>   
+
+                         
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title"> 2. 200 Grain Gold Mining Contract</h4>
+                          <h5>- 200 Grain aprx 540usd</h5>
+                          <h5>- 200 Grain payout in gold first year, 200 Grain second year</h5>
+                          <h5>- 100 Grain worth of Solidus Gold coins</h5>
+                          <h5>- Standard Card</h5>
+                        </div>   
+
+                         
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title"> 3. 1 Oz Gold Mining Contract</h4>
+                          <h5>- 1 Oz aprx 1290usd</h5>
+                          <h5>- 1 Oz payout in gold first year, 1 Oz second year</h5>
+                          <h5>- 0.5 Oz worth of Solidus Gold coins</h5>
+                          <h5>- Standard Card</h5>
+                        </div>   
+
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title"> 4. 2 Oz Gold Mining Contract </h4>
+                          <h5>- 2 Oz aprx 2580usd</h5>
+                          <h5>- 2 Oz payout in gold first year, 2 Oz second year</h5>
+                          <h5>- 1 Oz worth of Solidus Gold coins’</h5>
+                          <h5>- Silver Premium Card</h5>
+                        </div>   
+
+                         
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title"> 5. 3.5 Oz Gold Mining Contract</h4>
+                          <h5>- 3.5 Oz aprx 4515usd</h5>
+                          <h5>- 3.5 Oz payout in gold first year, 3.5 Oz second year</h5>
+                          <h5>- 3.5 Oz worth of Solidus Gold coins</h5>
+                          <h5>- Gold Premium Card</h5>
+                        </div>   
+
+                         
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title"> 6. 7 Oz Gold Mining Contract</h4>
+                          <h5>- 7 Oz aprx 9030usd</h5>
+                          <h5>- 7 Oz payout in gold first year, 7 Oz second year</h5>
+                          <h5>- 3.5 Oz worth of Solidus Gold coins</h5>
+                          <h5>- Platinum Premium Card</h5>
+                        </div>   
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mt--3 elbox"> 
+                          <h4 class="elbox-title">6. 7 Oz Gold Mining Contract</h4>
+                          <h5>- 7 Oz aprx 9030usd</h5>
+                          <h5>- 7 Oz payout in gold first year, 7 Oz second year</h5>
+                          <h5>- 3.5 Oz worth of Solidus Gold coins</h5>
+                          <h5>- Platinum Premium Card</h5>
+                        </div>   
+                        <div class="col-md-8 mt--3 elbox"> 
+                            <div class="col-md-8 offset-6 mt--3 elbox"> 
+                                    <img class="s-logo-2" src="{{ asset('site/img/all/s-logo.png')}}"/>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+<section class="cover height-110 text-center imagebg" data-overlay="1">
+                <div class="background-image-holder bgpostopcenter" >
+                    <img alt="background" src="{{ asset('site/img/all/bg-2.jpg')}}" />
+                </div>
+
+                <div class="">
+                        <div class="col-md-10 col-lg-8">
+                            <img src="{{ asset('site/img/all/company-dyn.png')}}"/>
+                            <h2 class="h1 fw800">Rankings</h2>                          
+                        </div>
+                    </div>
+
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mt--3 rankbox"> 
+                            <img class="rankicon inline-block" src="{{ asset('site/img/all/sapphire.png')}}">
+                            <h4 class="inline-block">SAPPHIRE</h4>                            
+                            <img class="rankiconplus inline-block" src="{{ asset('site/img/all/plus.png')}}">
+                        </div>     
+                        <div class="col-md-4 mt--3 rankbox"> 
+                            <img class="rankicon inline-block" src="{{ asset('site/img/all/ruby.png')}}">
+                            <h4 class="inline-block">RUBY</h4>                            
+                            <img class="rankiconplus inline-block" src="{{ asset('site/img/all/plus.png')}}">
+                        </div>     
+                        <div class="col-md-4 mt--3 rankbox"> 
+                            <img class="rankicon inline-block" src="{{ asset('site/img/all/emerald.png')}}">
+                            <h4 class="inline-block">EMERALD</h4>                            
+                            <img class="rankiconplus inline-block" src="{{ asset('site/img/all/plus.png')}}">
+                        </div>   
+                    </div>
+
+    <div class="row">
+                        <div class="col-md-4 mt--3 rankbox"> 
+                            <img class="rankicon inline-block" src="{{ asset('site/img/all/diamond.png')}}">
+                            <h4 class="inline-block">DIAMOND</h4>                            
+                            <img class="rankiconplus inline-block" src="{{ asset('site/img/all/plus.png')}}">
+                        </div>     
+                        <div class="col-md-4 mt--3 rankbox"> 
+                            <img class="rankicon inline-block" src="{{ asset('site/img/all/blue-diamond.png')}}">
+                            <h4 class="inline-block"> BLUE DIAMOND</h4>                            
+                            <img class="rankiconplus inline-block" src="{{ asset('site/img/all/plus.png')}}">
+                        </div>     
+                        <div class="col-md-4 mt--3 rankbox"> 
+                            <img class="rankicon inline-block" src="{{ asset('site/img/all/black-diamond.png')}}">
+                            <h4 class="inline-block">BLACK DIAMOND</h4>                            
+                            <img class="rankiconplus inline-block" src="{{ asset('site/img/all/plus.png')}}">
+                        </div>   
+                    </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12 text-left">
+                            <h3 class="fw300  block mt--1">Restrictions in Network</h3>                            
+                            <p>1 email <span class="coloryellow">◊</span> 1 phone number can be associated only with 3 positions <span class="coloryellow">◊</span> 25% of total profit by BANWAGOLD for Network Company</p>
+                            </div>
+                        </div>
+                    </div>
+
+</section>
+
+
+
+            <section class="cover height-110 text-center bg-gradient-black2">
+               
+
+                <div class="">
+                        <div class="col-md-10 col-lg-8">
+                            <img src="{{ asset('site/img/all/company-dyn.png')}}"/>
+                            <h2 class="h1 fw300 textwhite">Roadmap</h2>                          
+                        </div>
+                    </div>
+
+                    <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-10 col-md-10 col-10">
+                            <div class="boxed boxed--lg bg-white whitebox boxed--border box-shadow-wide mt--1">
+
+                                <h3 class="fw800 coloryellow">Pre register start on 30th May</h3>
+								<!-- 
+                                <h4><span class="coloryellow">◊</span> 30€ pre-register fee, 15€ to management of company 15€ to head position for Network development/prelaunch</h4>
+                                <h4><span class="coloryellow">◊</span> 5% extra on mining contract for everybody who register and pay before end of June</h4>
+                                <h4><span class="coloryellow">◊</span> In June 10th: Chris do interview video why he wanted to create new Opportunity and offer something real for everybody in different coin businesses Especially for people in OC  </h4>
+                                <h4><span class="coloryellow">◊</span> 10 000 - 30 000 in by end of June </h4>
+                                <h4><span class="coloryellow">◊</span> Pre-Launch of products on 1st June</h4>
+                                <h4><span class="coloryellow">◊</span> Grand Launch September</h4>
+                                <h4><span class="coloryellow">◊</span> Before launch arrange trip to qualifiers to one of gold mining sites</h4> -->
+                                <h4><span class="coloryellow">◊</span>  30€ pre-register fee </h4>
+                                <h4><span class="coloryellow">◊</span>  In June 10th: Chris do interview video why he wanted to create new Opportunity and oﬀer something real for everybody in diﬀerent coin businesses Especially for people in OC</h4>
+                                <h4><span class="coloryellow">◊</span> Pre-Launch of products on July </h4>
+                                <h4><span class="coloryellow">◊</span> Soft Launch September</h4>
+                                <h4><span class="coloryellow">◊</span> Before launch arrange trip to qualifiers to one of gold mining sites 
+</h4>
+                                <h4><span class="coloryellow">◊</span> Grand launch January </h4>
+                  
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+@endsection
+
+

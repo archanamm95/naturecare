@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'add_new_contact'                       => 'Adicionar um novo contato',
+    'address'                               => 'Endereço',
+    'all_contact'                           => 'Todos os contatos',
+    'contact'                               => 'Contacto',
+    'contact_list'                          => 'Lista de contatos',
+    'contact_lists'                         => 'Listas de contato',
+    'contacts_created'                      => 'Contactos criados',
+    'contacts_deleted'                      => 'Contatos excluídos',
+    'contacts_list_created'                 => 'Lista de contactos criada',
+    'contacts_updated'                      => 'Contatos atualizados',
+    'create_contact_list'                   => 'Criar lista de contatos',
+    'create_new_list'                       => 'Criar nova lista',
+    'created'                               => 'Criado',
+    'email'                                 => 'E-mail',
+    'firstname'                             => 'Nome',
+    'lastname'                              => 'Sobrenome',
+    'mobile'                                => 'Celular',
+    'showing_contacts_in_the_list'          => 'Mostrando contatos da lista',
+    'sorry_you cannot_delete_this_contact'  => 'Desculpe, Você Não Pode Excluir Esse Contato',
+    'view_and_manage_contact_list'          => 'Ver e gerir a lista de contactos',
+    'view_and_manage_contact_lists'         => 'Ver e gerir listas de contatos',
+    'view_and_manage_contacts'              => 'Ver e gerir contactos',
+    'view_contact_list'                     => 'Ver lista de contatos',
+];

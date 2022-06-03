@@ -1,0 +1,86 @@
+.btn-load-pagination {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 6px 12px;
+	background-color: #fff;
+	border-color: #ddd;
+	border-radius: 4px;
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-khtml-border-radius: 4px;
+	border: 1px solid #ddd;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn-load-pagination:hover {
+    background-color: #ddd;
+}
+
+.pagination-text-justify {
+	text-align: justify;
+	//position: relative;
+}
+
+.btn-load-pagination {
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+
+
+/** preloader **/
+
+.line {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	-khtml-border-radius: 15px;
+    background-color: #4b9cdb;
+}
+
+.btn-load-pagination {
+	display: flex;
+}
+
+.title-button {
+	float: left;
+	margin: auto 7px auto auto;
+}
+
+.load-pagination {
+	float: right;
+	margin: auto;
+	display: none;
+}
+
+.ring-pagination {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 6px dashed #4b9cdb;
+    border-radius: 100%;
+	-moz-border-radius: 100%; 
+	-webkit-border-radius: 100%; 
+	-khtml-border-radius: 100%;
+}
+
+
+/* =Animate the stuff
+------------------------ */
+.load-pagination .ring-pagination {animation: loading-format 1.5s .3s cubic-bezier(.17,.37,.43,.67) infinite;}
+
+
+@keyframes loading-format {
+    0 {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+}

@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class PointsHistory extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('point_history', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
+            $table->increments('id');
+            $table->integer('user_id')->index();
+            $table->integer('from_id');
+            $table->double('pv');
+            $table->string('leg')->default('L');
+            $table->string('commision_type')->default('binary')->index();
+            $table->timestamps();
+            $table->index('created_at');
+            $table->index('updated_at');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('point_history');
+    }
+}

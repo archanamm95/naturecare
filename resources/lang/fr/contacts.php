@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'add_new_contact'                       => 'Ajouter un nouveau contact',
+    'address'                               => 'Adresse',
+    'all_contact'                           => 'Tous les contacts',
+    'contact'                               => 'Contact',
+    'contact_list'                          => 'Liste de contacts',
+    'contact_lists'                         => 'Les listes de contacts',
+    'contacts_created'                      => 'Contacts créés',
+    'contacts_deleted'                      => 'Les contacts supprimés',
+    'contacts_list_created'                 => 'Liste de contacts créés',
+    'contacts_updated'                      => 'Contacts à jour',
+    'create_contact_list'                   => 'Créer une liste de contacts',
+    'create_new_list'                       => 'Créer une nouvelle liste',
+    'created'                               => 'Créé',
+    'email'                                 => 'E-mail',
+    'firstname'                             => 'Prénom',
+    'lastname'                              => 'Lastname',
+    'mobile'                                => 'Mobile',
+    'showing_contacts_in_the_list'          => 'Montrant les contacts dans la liste',
+    'sorry_you cannot_delete_this_contact'  => 'Désolé, Vous Ne Pouvez Pas Supprimer Ce Contact',
+    'view_and_manage_contact_list'          => 'Afficher et gérer la liste de contacts',
+    'view_and_manage_contact_lists'         => 'Afficher et gérer des listes de contacts',
+    'view_and_manage_contacts'              => 'Afficher et gérer les contacts',
+    'view_contact_list'                     => 'Voir la liste des contacts',
+];

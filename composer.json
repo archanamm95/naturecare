@@ -1,0 +1,100 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "barryvdh/laravel-dompdf": "^0.8.4",
+        "cohensive/embed": "5.5.*",
+        "doctrine/common": "2.7.0",
+        "doctrine/dbal": "2.5.13",
+        "dougsisk/laravel-country-state": "^2.0",
+        "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "htmlmin/htmlmin": "^5.0",
+        "hyperwallet/sdk": "^1.3",
+        "igorescobar/jquery-mask-plugin": "^1.14",
+        "intervention/image": "^2.3",
+        "intervention/imagecache": "^2.3",
+        "kingflamez/laravelrave": "^1.1",
+        "laracasts/flash": "^2.0",
+        "laravel/framework": "5.8.*",
+        "laravel/passport": "^7.3",
+        "laravel/socialite": "^3.2.0",
+        "laravel/tinker": "^1.0",
+        "laravelcollective/html": "^5.2",
+        "maatwebsite/excel": "^3.1",
+        "matriphe/larinfo": "^1.0",
+        "mbarwick83/shorty": "^2.0",
+        "mews/purifier": "^2.0",
+        "nao-pon/flysystem-google-drive": "~1.1",
+        "nesbot/carbon": "^2.0.0",
+        "paypal/rest-api-sdk-php": "*",
+        "spatie/laravel-backup": "^5.0.0",
+        "srmklive/paypal": "~1.0",
+        "stripe/stripe-php": "^6.40",
+        "torann/currency": "^1.0",
+        "torann/geoip": "^1.0.6",
+        "vsch/laravel-translation-manager": "~2.6",
+        "yajra/laravel-datatables-buttons": "^4.0",
+        "yajra/laravel-datatables-oracle": "~9.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
+        "beyondcode/laravel-dump-server": "^1.0",
+        "filp/whoops": "^2.0",
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^3.0",
+        "phpunit/phpunit": "^7.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+   "extra": {
+    "laravel": {
+        "dont-discover": [
+            "laravel/dusk"
+        ]
+    }
+},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "AslamBpract\\LaraLegals\\": "packages/aslambpract/laralegals/src"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    }
+}

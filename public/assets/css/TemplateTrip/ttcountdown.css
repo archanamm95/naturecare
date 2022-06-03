@@ -1,0 +1,599 @@
+.tt-special-countdown {
+    float: left;
+    width: 100%;
+}
+.ttcountdown-inner {
+    float: left;
+    width: 100%;
+}
+.special-countdown .product-thumb {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 0;
+}
+.special-countdown .product-thumb::after {
+    display: none;
+}
+.special-countdown .special-image img {
+    max-width: 100%;
+}
+.product-description {
+    float: left;
+    width: 100%;
+}
+.product_btn_style2 .product-description {
+    position: relative;
+    text-align: center;
+}
+.tt-titletab .title_block {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #333;
+    font: 400 20px/22px "Oswald", Helvetica, sans-serif;
+    letter-spacing: 0.2px;
+    margin: 0 auto auto;
+    padding: 0 0 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+.special-countdown .product-thumb .caption .description {
+    color: #888;
+    display: block;
+    font: 400 15px/20px Oswald;
+    letter-spacing: 0.4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.special-countdown .product-thumb .price,
+.special-countdown .product-thumb .price-new {
+    padding: 0;
+}
+.tt-special-countdown .product-thumb .caption {
+    padding: 15px 0 0;
+}
+.countdown-labele {
+    float: left;
+}
+.special-countdown .percent {
+    background: 0 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #0a0;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    direction: ltr;
+    display: block !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 5px 0;
+    padding: 0;
+    float: left;
+    position: static;
+    height: auto;
+    width: 100%;
+}
+.countdown-labele .expired {
+    max-width: 70px;
+}
+.countdown-labele .hot {
+    bottom: auto;
+    color: #333;
+    display: block;
+    font: 400 14px/18px "Oswald", Helvetica, sans-serif;
+    left: auto;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.expired .hot {
+    display: none;
+}
+.item-countdown {
+    background: #111;
+    border: 1px solid #111;
+    display: inline-block;
+    float: left;
+    margin: 10px 0 20px;
+    padding: 5px 10px 5px 30px;
+    position: relative;
+}
+.item-countdown::before {
+	color: #ddd;
+	content: "\E192";
+	font-family: "Material Icons";
+	font-size: 21px;
+	left: 10px;
+	position: absolute;
+	right: auto;
+	top: 8px;
+	z-index: 1;
+}
+.item-countdown div {
+    color: #ddd;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 36px;
+}
+.item-countdown div > b {
+    font: 400 14px/24px "Oswald", Helvetica, sans-serif;
+}
+.item-countdown div:last-child {
+    margin: 0;
+    color: #ec2d48;
+}
+.item-countdown div::after {
+    color: #ddd;
+    content: ":";
+    font-size: 16px;
+    position: absolute;
+    right: -2px;
+    top: 0;
+}
+.item-countdown div:last-child::after {
+    display: none;
+}
+.item-countdown div > span {
+    display: none;
+}
+.expired > div {
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    -webkit-opacity: 0.6;
+}
+.products-carousel.owl-carousel .special-additional-images .owl-buttons {
+    position: static;
+}
+.special-additional-images .image-additional {
+    text-align: center;
+    margin: 25px 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+}
+.special-additional-images .image-additional img {
+    width: 155px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+}
+.countdown-images {
+    float: left;
+    position: relative;
+    padding: 0;
+    text-align: center;
+}
+.countdown-images .special-image {
+    float: left;
+    width: 100%;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -khtml-border-radius: 22px;
+    overflow: hidden;
+}
+.tt-special-countdown .product-thumb .thumb-description {
+    padding: 0 30px;
+}
+.tt-special-countdown .ttcountdown-inner .product-thumb h4 {
+    font: 400 24px/32px "Oswald", Helvetica, sans-serif;
+    position: relative;
+}
+.tt-special-countdown .product-thumb h4 a {
+    color: #111;
+}
+.special-countdown .product-thumb .rating {
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    position: static;
+    text-align: left;
+    margin: 0 0 10px;
+}
+.special-countdown .additional-images-container {
+    bottom: 10px;
+    left: auto;
+    position: absolute;
+    right: -290px;
+    top: auto;
+    width: 380px;
+}
+.special-countdown .additional-images-container .special-additional-images {
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.special-additional-images.owl-carousel .owl-controls .owl-buttons div {
+    background: #ddd;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    direction: ltr;
+    cursor: pointer;
+    font-size: 0;
+    height: 25px;
+    padding: 0 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    width: 25px;
+}
+.special-additional-images.owl-carousel .owl-buttons .owl-next::before {
+    content: "\e5cb";
+    font-family: "Material Icons";
+    font-size: 16px;
+    color: #111;
+    position: static;
+    padding: 0;
+    border: none;
+}
+.special-additional-images.owl-carousel .owl-buttons .owl-prev::before {
+    content: "\e5cc";
+    font-family: "Material Icons";
+    font-size: 16px;
+    color: #111;
+    position: static;
+    padding: 0;
+    border: none;
+}
+.special-additional-images.owl-carousel .owl-buttons .owl-next::after,
+.special-additional-images.owl-carousel .owl-buttons .owl-prev::after {
+    display: none;
+}
+.special-additional-images.owl-carousel .owl-controls .owl-buttons > div.owl-prev {
+    left: auto;
+    right: -30px;
+    top: -60px;
+}
+.special-additional-images.owl-carousel .owl-controls .owl-buttons > div.owl-next {
+    left: auto;
+    right: -30px;
+}
+.special-additional-images.owl-carousel .owl-controls .owl-buttons .owl-next:hover::before,
+.special-additional-images.owl-carousel .owl-controls .owl-buttons .owl-prev:hover::before {
+    color: #ddd;
+}
+.special-additional-images.owl-carousel .owl-controls .owl-buttons div:hover {
+    background: #ff2d46;
+    border-color: #ff2d46;
+}
+.tt-special-countdown .ttqtyprogress {
+    background: #f7f7f7;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    color: #111;
+    float: left;
+    font-size: 13px;
+    line-height: normal;
+    text-align: left;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 0 0 15px;
+}
+.tt-special-countdown .ttqtyprogress #QuantityAvailable {
+    color: #777;
+}
+.tt-special-countdown .ttqtyprogress #quantity {
+    font-weight: 600;
+}
+.tt-special-countdown .alert,
+.tt-special-countdown .progress {
+    background: #e5e5e5;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    float: left;
+    height: 10px;
+    margin: 10px 0 0;
+    width: 100%;
+}
+.tt-special-countdown .progress-bar {
+    background-color: #62ac01;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    height: 10px;
+    width: 0;
+}
+.special-countdown .product-thumb .button-group {
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    position: static;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 15px;
+}
+.special-countdown .product-thumb .button-group button {
+    background: #111;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+.special-countdown .product-thumb .button-group button:hover {
+    background: #4a5f26;
+}
+.special-countdown .product-thumb .thumb-description .btn-cart {
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    padding: 0 15px;
+    width: auto;
+}
+.special-countdown .product-thumb .thumb-description .btn-cart i.fa-shopping-cart {
+    background-position: -40px -37px;
+    width: 30px;
+    height: 45px;
+}
+.special-countdown .product-thumb .thumb-description button.btn-cart span {
+    color: #ddd;
+    display: inline-block !important;
+    font: 400 13px/45px "Oswald", Helvetica, sans-serif;
+}
+.special-countdown .product-thumb .button-group i.fa-heart {
+    background-position: -32px 10px;
+    height: 45px;
+    width: 45px;
+}
+.special-countdown .product-thumb .button-group .btn-wishlist:hover i.fa-heart {
+    background-position: -32px 10px;
+}
+.special-countdown .product-thumb .button-group .btn-compare i {
+    background-position: -32px -82px;
+    height: 45px;
+    width: 45px;
+}
+.special-countdown .product-thumb .button-group .btn-compare:hover i {
+    background-position: -32px -82px;
+}
+.special-countdown .product-thumb .button-group .btn-quickview i {
+    background-position: -31px -123px;
+    height: 45px;
+    width: 45px;
+}
+.special-countdown .product-thumb .button-group .btn-quickview:hover i {
+    background-position: -31px -123px;
+}
+#column-left .ttcountdown-inner,
+#column-right .ttcountdown-inner {
+    border: medium none;
+    padding: 0;
+}
+#column-left .tt-titletab,
+#column-right .tt-titletab {
+    display: none;
+}
+#column-left .tt-countdown-carousel .box-heading,
+#column-right .tt-countdown-carousel .box-heading {
+    display: block;
+}
+#column-left .tt-countdown-carousel.list-products,
+#column-right .tt-countdown-carousel.list-products {
+    border: none;
+    margin: 0;
+}
+#column-left .countdown-images,
+#column-right .countdown-images {
+    border: medium none;
+    float: left;
+    width: 100%;
+}
+#column-left .countdown-images .additional-images-container,
+#column-right .countdown-images .additional-images-container {
+    display: none;
+}
+#column-left .special-countdown .product-thumb .thumb-description,
+#column-right .special-countdown .product-thumb .thumb-description {
+    float: left;
+    width: 100%;
+}
+#column-left .special-countdown .product-description,
+#column-right .special-countdown .product-description {
+    padding: 0;
+}
+#column-left .countdown-images::after,
+#column-right .countdown-images::after {
+    border: none;
+}
+#column-left .special-countdown .product-thumb .caption .description,
+#column-right .special-countdown .product-thumb .caption .description {
+    font-size: 13px;
+    line-height: 16px;
+}
+#column-left .item-countdown,
+#column-right .item-countdown {
+    margin: 20px 0 0;
+}
+#column-left .special-countdown .product-thumb .no-rating,
+#column-right .special-countdown .product-thumb .no-rating {
+    display: block;
+}
+#column-left .special-countdown .product-thumb .button-group .btn-cart,
+#column-right .special-countdown .product-thumb .button-group .btn-cart {
+    background: #111;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    color: #ddd;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 15px;
+    position: relative;
+    width: auto;
+}
+#column-left .special-countdown .product-thumb .button-group .btn-cart:hover,
+#column-right .special-countdown .product-thumb .button-group .btn-cart:hover {
+    background: #fe9900;
+}
+#column-left .special-countdown .product-thumb .button-group .btn-cart span,
+#column-right .special-countdown .product-thumb .button-group .btn-cart span {
+    color: #ddd;
+    display: inline-block !important;
+    font: 400 14px/20px "Oswald", Helvetica, sans-serif;
+    vertical-align: top;
+}
+#column-left .special-countdown .product-thumb .button-group .btn-cart:hover span,
+#column-right .special-countdown .product-thumb .button-group .btn-cart:hover span {
+    color: #ddd;
+}
+#column-left .tt-special-countdown .products-carousel.owl-carousel .owl-buttons,
+#column-right .tt-special-countdown .products-carousel.owl-carousel .owl-buttons {
+    float: left;
+    margin: 0 0 10px;
+    position: static;
+    text-align: center;
+    width: 100%;
+}
+#column-left .tt-special-countdown .products-carousel.owl-carousel .owl-buttons div,
+#column-right .tt-special-countdown .products-carousel.owl-carousel .owl-buttons div {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+#column-left .tt-special-countdown .products-carousel,
+#column-right .tt-special-countdown .products-carousel {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 480px) {
+    #column-left .special-countdown .product-description,
+    #column-right .special-countdown .product-description {
+        padding: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .item-countdown {
+        padding: 5px 7px 5px 45px;
+    }
+}
+@media (min-width: 992px) {
+    .countdown-images:hover .special-additional-images .image-additional {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+    }
+    .countdown-images:hover .special-additional-images .owl-item:nth-child(2n) .image-additional {
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+    }
+}
+@media (max-width: 1199px) {
+    .special-countdown .additional-images-container {
+        width: 270px;
+        right: -190px;
+        bottom: 0;
+    }
+    .tt-special-countdown .product-thumb .caption {
+        padding: 0;
+    }
+    .special-additional-images .image-additional img {
+        width: 100px;
+    }
+    .tt-special-countdown .product-thumb .thumb-description {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 991px) {
+    .special-countdown .additional-images-container {
+        display: inline-block;
+        float: none;
+        position: static;
+        vertical-align: top;
+    }
+    .tt-special-countdown .ttcountdown-inner .product-thumb h4 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .tt-special-countdown .product-thumb .thumb-description {
+        padding: 0 15px;
+    }
+    .item-countdown {
+        padding: 5px 10px 5px 35px;
+    }
+    .item-countdown::before {
+        left: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .countdown-images {
+        width: 100%;
+        text-align: center;
+    }
+    .countdown-images .special-image {
+        display: inline-block;
+        float: none;
+        position: relative;
+        vertical-align: top;
+        width: 70%;
+    }
+    .tt-special-countdown .product-thumb .thumb-description {
+        float: left;
+        padding: 0;
+        width: 100%;
+    }
+    .special-countdown .additional-images-container {
+        width: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .tt-titletab .title_block {
+        font-size: 18px;
+    }
+    .countdown-images .special-image {
+        width: 100%;
+    }
+    .special-countdown .additional-images-container {
+        width: 220px;
+    }
+    .special-additional-images .image-additional img {
+        width: 85px;
+    }
+    .special-countdown .product-thumb .thumb-description .btn-cart {
+        padding: 0 7px;
+    }
+}
